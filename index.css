@@ -94,12 +94,6 @@ section{
     border-radius: 8px;
     text-decoration: none;
 }
-.background-images{
-    width: 36%;
-    float: left;
-    margin: 6%;
-    padding-left: 2%;
-}
 .section-area{
     float: left;
 }
@@ -119,3 +113,6 @@ section{
     background-repeat: no-repeat;
     background-size: contain, cover;
   }
+div h1 a{
+    display: inline-block;
+}
