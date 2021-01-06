@@ -10,13 +10,13 @@ body{
     box-sizing: border-box;
 }
 nav{
-    background-color: #b3844f;
+    background-color: #917250;
     height: 80px;
     width: 100%;
+    
 }
 nav ul{
-    float: right;;
-    margin-right:px ;
+    float: right;
 }
 nav ul li{
     display: inline-block; 
@@ -29,6 +29,7 @@ nav ul li a{
     font-size:18px;
     padding: 10px 13px;
     border-radius: 13px;
+    text-decoration: none;
 }
 /* nav compl. */
 .orange-color{
@@ -45,11 +46,15 @@ h2{
     font-size: 40px;
     text-transform: uppercase;
 }
+h3{
+    font-size: 30px;
+    color: teal;
+}
 p{
     /* margin-top: 10%;
     padding-right: 5%; */
     color: dimgray;
-    font-size: 25px;
+    font-size: 23px;
 }
 section{
     width: 100%;
@@ -58,9 +63,16 @@ section{
     text-align: center;
 }
 .half-width{
-    width: 25%;
+    width: 27%;
     float: left;
     margin: 3%;
+    padding: 3px;
+}
+.backg-width{
+    width: 27%;
+    float: left;
+    margin: 3%;
+    padding: 3px;
 }
 .background-images{
     width: 36%;
@@ -84,6 +96,22 @@ section{
     margin: 6%;
     padding-left: 2%;
 }
-.background-area{
+.section-area{
     float: left;
 }
+.box-shado{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    height: 90%;
+}
+.text-img-center{
+    text-align: center;
+}
+.example1 {
+    color: white;
+    margin:23%;
+    padding: 70px;
+    background-image: url("images/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+  }
