@@ -32,6 +32,9 @@ nav ul li a{
     text-decoration: none;
 }
 /* nav compl. */
+.horizontall{
+    text-align: right;
+}
 .orange-color{
     color: orange;
 }
